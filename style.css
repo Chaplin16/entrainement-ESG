@@ -1,0 +1,15 @@
+tr{
+   background-color: #4031c7; 
+}
+td, th{
+    text-align: center;
+    padding:20px;
+    color: #ffffff;
+}
+.imgSendForm{
+    width: 100px;
+}
+.imgResetForm{
+    margin-top:20px;
+    margin-bottom:20px;
+}
