@@ -1,15 +1,150 @@
-tr{
-   background-color: #4031c7; 
+body{
+    margin:0;
 }
-td, th{
+
+section{
+    margin-top:8rem;
+    margin-bottom:8rem;
+}
+
+h3{
+    color: darkcyan;
+    font-family: 'Lobster', sans-serif;
+}
+
+.myFirstParagraph{
+    color: #525151;
+}
+
+.myFirstParagraph span,
+.myFirstParagraph em{
+    color: #c41616;
+}
+
+.titre{
+    color: #686767;
+    font-family: 'Lobster', sans-serif;
+    font-size: 3rem;
+    
+}
+
+.paragraphe{
+    color:rgba(250,25,118, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align:justify
+
+}
+
+#logo{
+    border: 3px solid #2e38bb;
+}
+
+/* section background-image */
+.banner {
+    padding: 100px; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter de l'espace dans notre élément*/
+    background-image: url('images/happyDog.jpg');
+    
+    margin:0;
+}
+
+h1 {
+    color: #743b3b;
+    font-size: 2rem;
     text-align: center;
-    padding:20px;
-    color: #ffffff;
 }
-.imgSendForm{
-    width: 100px;
+
+.background h2{
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+    text-align: center;
+    padding:50px;
 }
-.imgResetForm{
-    margin-top:20px;
-    margin-bottom:20px;
+
+/* section bordure */
+.border{
+    border-top: 3px #EB5353 dotted;
+    border-right: 3px #F9D923 double;
+    border-bottom: 3px #36AE7C dashed;
+    border-left: 3px #187498 solid;
+    width:200px;
+    margin:auto;
 }
+
+
+/* section arrondie */
+.borderRadius {
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 10px 30px 0px 90px;
+    padding: 50px;
+    margin: 2rem;
+}
+
+/* section ombre */
+.boxShadow {
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 2rem;
+    box-shadow: 6px 6px 25px #8f8f8f;
+}
+
+.textShadow{
+    font-size: 50px;
+    padding-left:5%;
+    text-shadow: 3px 3px 0px rgba(23, 245, 15, 0.502)
+}
+
+/* pseudo classe */
+.pseudoClasse{
+    width:320px;
+    border: 2px solid #f50404;
+    text-align:center;
+    border-radius: 5px;
+}
+.pseudoClasse img:hover{
+    filter: grayscale(100%);
+}
+
+.pseudoClasse p:hover{
+    color: rgb(252, 4, 4);
+}
+
+.pseudoClasse a{
+    text-decoration: none;
+}
+
+.pseudoClasse a:hover{
+    color: rgb(248, 1, 137);
+    text-decoration: overline;  
+}
+
+.pseudoClasse a:active{
+    background-color: #36AE7C;
+}
+
+input:focus{
+    border: 4px solid red;
+    background-color: #c0c0c0;
+}
+
+/* h3 em {
+    color: #e713b2;
+}
+
+h3 + p {
+    font-weight: 700;
+    font-style: italic;
+}
+
+a[title] {
+    background-color: rgb(238, 255, 1);
+} */
+
+
+h3 ~ p {
+    color: rgb(255, 0, 0);
+}
+
+
