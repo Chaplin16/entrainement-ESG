@@ -28,13 +28,12 @@ h3{
     
 }
 
-.paragraphe{
+/* .paragraphe{
     color:rgba(250,25,118, 0.5);
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     text-align:justify
-
-}
+} */
 
 #logo{
     border: 3px solid #2e38bb;
@@ -48,11 +47,11 @@ h3{
     margin:0;
 }
 
-h1 {
+/* h1 {
     color: #743b3b;
     font-size: 2rem;
     text-align: center;
-}
+} */
 
 .background h2{
     background: linear-gradient(90deg, #8360c3, #2ebf91);
@@ -143,8 +142,8 @@ a[title] {
 } */
 
 
-h3 ~ p {
+/* h3 ~ p {
     color: rgb(255, 0, 0);
 }
-
+ */
 
